@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NeosWikiAssetGenerator": {
+      "commandName": "Executable",
+      "executablePath": "H:\\SteamLibrary\\steamapps\\common\\NeosVR\\Neos.exe",
+      "commandLineArgs": "Screen -verbose -DontAutoOpenCloudHome -LoadAssembly \"Libraries\\Microsoft.Bcl.HashCode.dll\" -LoadAssembly \"Libraries\\CsvHelper.dll\" -LoadAssembly \"Libraries\\$(TargetName).dll\" -Invisible",
+      "workingDirectory": "H:\\SteamLibrary\\steamapps\\common\\NeosVR\\"
+    }
+  }
+}
